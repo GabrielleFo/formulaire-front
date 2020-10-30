@@ -1,0 +1,52 @@
+body {
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 25px;
+}
+.container {
+  background-color: lightgrey;
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+  height: 600px;
+  width: 500px;
+  /*aligne au milieu de la page horizontal*/
+  align-items: center;
+  /*aligne au milieu de la page en vertical*/
+  justify-content: center;
+}
+
+/*mise en forme du formulaire*/
+input,
+textarea {
+  width: 300px;
+  margin: 10px 0;
+  padding: 0 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+}
+
+input[type="submit"] {
+  background-color: violet;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+}
